@@ -5,7 +5,7 @@ require "middledomain/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "middledomain"
-  spec.version       = Middledomain::VERSION
+  spec.version       = MiddleDomain::VERSION
   spec.authors       = ["narita_takeru"]
   spec.email         = ["naritano77@gmail.com"]
 

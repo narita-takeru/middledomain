@@ -3,12 +3,12 @@ require "middledomain/version"
 require "active_record"
 require "active_support/concern"
 
-module Middledomain
+module MiddleDomain
 
   module Models
 
     def middledomain(m)
-      include Middledomain::Models.const_get(m.to_s.classify)
+      include MiddleDomain::Models.const_get(m.to_s.classify)
     end
 
     module Pointable
@@ -75,5 +75,5 @@ module Middledomain
 end
 
 ActiveSupport.on_load(:active_record) do
-  extend Middledomain::Models
+  extend MiddleDomain::Models
 end

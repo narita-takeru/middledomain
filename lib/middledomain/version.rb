@@ -1,3 +1,3 @@
-module Middledomain
+module MiddleDomain
   VERSION = "0.1.0"
 end
